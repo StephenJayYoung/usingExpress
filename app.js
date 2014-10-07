@@ -7,7 +7,7 @@ var path = require('path');
 
 
 app.get('/api/people', function(req, res) {
-	var people = [{ firstName: 'Whitney', lastName: "Young", address: "321 here" }];
+	var people = [{ firstName: 'Whitney', lastName: "Young", address: "Portland" }];
 	res.json({ people: people });
 });
 app.post('/api/people', function(req, res) {
