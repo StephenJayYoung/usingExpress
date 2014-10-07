@@ -13,6 +13,7 @@ app.get('/api/people', function(req, res) {
 });
 app.post('/api/people', function(req, res) {
   // create a new person
+  // i have no clue how to make this work.
 });
 
 // test a post request:
