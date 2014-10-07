@@ -13,6 +13,7 @@ app.get('/api/people', function(req, res) {
 });
 app.post('/api/people', function(req, res) {
   // create a new person
+  // i have no clue how to make this work.
 });
 
 // test a post request:
@@ -22,26 +23,4 @@ var server = app.listen(8000, function() {
   console.log('Listening on port %d', server.address().port);
 });
 
-// app.get('/', function(req, res){
-//   res.send('Leslie, Kali, and Steve in da hizzouse');
-// });
-
-// var express = require('express');
-// var app = express();
-
-// app.use(express.static(__dirname + '/public'));
-
-// app.get('/', function(req, res){
-//   res.send('Leslie, Kali, and Steve in da hizzouse');
-// });
-
-// app.get('/api/people', function(req, res){
-// 	// don't use send here
-//   res.send('{ people: [] }');
-// });
-// app.get('/api/people', function(req, res){
-//   // create new person
-// });
-
-// whitney made this comment. it's silly and should be removed.
-// app.listen(3000);
+console.log(server);
