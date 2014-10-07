@@ -100,6 +100,11 @@ var people = [{ firstName: 'Kali', lastName: "Oxford", address: "321 here" }];
 
 
 app.get('/api/people', function(req, res) {
+<<<<<<< HEAD
+=======
+  
+	var people = [{ firstName: 'Whitney', lastName: "Young", address: "Portland" }];
+>>>>>>> 698e98eb6d1b1d102e945a7a88a9542caced1cd8
 	res.json({ people: people });
 
 });
@@ -145,5 +150,5 @@ var server = app.listen(8000, function() {
 //   // create new person
 // });
 
-
+// whitney made this comment. it's silly and should be removed.
 // app.listen(3000);
