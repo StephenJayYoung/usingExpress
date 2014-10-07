@@ -1,0 +1,22 @@
+{
+  "name": "usingExpress",
+  "version": "4.9.5",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StephenJayYoung/usingExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephenJayYoung/usingExpress/issues"
+  },
+  "homepage": "https://github.com/StephenJayYoung/usingExpress",
+  "dependencies": {
+    "express": "^4.9.5"
+  }
+}
