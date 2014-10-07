@@ -42,5 +42,5 @@ var server = app.listen(8000, function() {
 //   // create new person
 // });
 
-
+// whitney made this comment. it's silly and should be removed.
 // app.listen(3000);
