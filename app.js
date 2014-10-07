@@ -22,3 +22,5 @@ app.post('/api/people', function(req, res) {
 var server = app.listen(8000, function() {
   console.log('Listening on port %d', server.address().port);
 });
+
+console.log(server);
