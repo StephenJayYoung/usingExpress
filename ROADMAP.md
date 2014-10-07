@@ -13,3 +13,12 @@
 	* GET /api/people/1 should return a specific person.
 	* PUT /api/people/1 should update a person.
 	* DELETE /api/people/1 should remove a person.
+
+#Post Lunch
+1. list of people outside
+1. query
+1. path
+1. match d 0 -1
+1. have index return json objet
+1. put - if statements first, last, address
+1. splice to remove person from array
